@@ -1,0 +1,40 @@
+/*SELECTRO POR ATRIBUTO*/
+img[src$=".jpg"] {
+    width: 100vw;
+}
+/*
+termina con.... src$="jpg"
+comienza con.... src^="Alie"
+Respeta mayusculas y minusculas
+*/
+
+/*SELECTORES DESCENDIENTES*/
+ul li {
+    color: red;
+}
+/*HIJO DIRECTO*/
+/*se pueden hacer cadenas*/
+ul > em {
+    color: aqua;
+}
+li > em {
+    color: aqua;
+}
+/*SELECTOR DE HERMANO ADYACENTE*/
+/*En este caso afectamos al p que sigue a un h1*/
+/*se pueden hacer cadenas*/
+h1 + p {
+    color: red;
+}
+/*SELECTOR DE HERMANOS GENERALES*/
+h1 ~ p {
+    color: #893;
+}
+
+/*HERENCIA
+-----------
+    INHERIT
+    INITIAL
+    UNSET
+    REVERT
+*/

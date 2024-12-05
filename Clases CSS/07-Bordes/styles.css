@@ -1,0 +1,15 @@
+div {
+    background-color: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+div{
+    /*
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    */
+    border: 5px solid black;
+    border-radius: 13%;
+}

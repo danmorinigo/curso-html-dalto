@@ -1,0 +1,55 @@
+/*
+:root {
+    font-size: 30px;
+}
+*/
+
+
+div {
+    border: 1px solid blue;
+}
+div:empty {
+    background-color: #f92;
+    padding: 40px;
+    border: none;
+}
+input[type="checkbox"] {
+    margin: 10px;
+    box-shadow: 10px 7px 20px 0px;
+}
+input[type="checkbox"]:checked {
+    margin: 15px;
+    box-shadow: 5px 2px 20px 0px;
+}
+a:link {
+    color: #f92;
+}
+a:visited {
+    color: green;
+}
+.elemento1 {
+    color:blueviolet
+}
+section :is(.elemento1, .elemento2, .elemento3, .elemento4) {
+    color: red;
+}
+section ~ ul ~ li:where(.elemento1, .elemento2, .elemento3, .elemento4) {
+    color: #009;
+}
+section:has(.elemento1){
+    background: linear-gradient(transparent, #00D);
+}
+label {
+    padding: 10px;
+}
+label:has(input:invalid){
+    color:red;
+    font-weight: bold;
+}
+label:has(input:valid){
+    color: green;
+    font-weight: bold;
+}
+input{
+    color: inherit;
+}

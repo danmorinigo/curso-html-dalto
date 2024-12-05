@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accebilidad Web</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 aria-label="Descripcion">Hola</h1>
+        <label>Referente
+            <input list="referente" name="lista" aria-label="Elija una opcion">
+            <datalist id="referente" name="lista" aria-label="lista de referencias">
+                <option value="Dia">Todo el dia</option>
+                <option value="Chino" aria-label="El chino">Cerca de casa</option>
+                <option value="Kiosco">Barato</option>
+            </datalist>
+            <div role="slider">
+                hola
+            </div>
+        </label>
+    </body>
+</html>

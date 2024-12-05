@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: #11e;
+    font-size: 1.3em;
+    color: #fff;
+}
+.box {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    /*
+    background-color: #f325;
+    background-image: url("https://media.timeout.com/images/105763813/750/562/image.webp");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    */
+    /*
+    background: imagen posicion /size repeat attachment color
+    */
+    background: url("https://media.timeout.com/images/105763813/750/562/image.webp") top / cover fixed #f325;
+}
+.opaco{
+    width: 100%;
+    height: 100%;
+    background-color: #00d8;
+}
+p {
+    padding: 15px;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}

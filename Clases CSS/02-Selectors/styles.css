@@ -1,0 +1,21 @@
+h1 {
+    color: chocolate;
+}
+
+
+
+li {
+    color: darkslategrey;
+}
+
+ul {
+    color: coral;
+}
+
+.ingrediente-faltante {
+    color: red;
+}
+
+#ingrediente-secreto {
+    color: indigo;
+}

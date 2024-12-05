@@ -1,0 +1,39 @@
+body {
+    background-color: #eee;
+}
+div {
+    padding: 20px;
+}
+h1::first-letter{
+    color: red;
+    font-size: 3em;
+    letter-spacing: -10px;
+}
+div::first-line {
+    color: #0e2;
+}
+h1::selection {
+    background-color: red;
+    color: blue;
+}
+input::placeholder {
+    color: blue;
+}
+li::marker {
+    color: grey;
+}
+li::after {
+    content: "-AFTER";
+}
+li::before {
+    content: "BEFORE-";
+}
+span {
+    box-sizing:border-box;
+}
+span::before {
+    content: "Antes ";
+    border: 1px solid blue;
+    padding: 0 15px;
+    
+}

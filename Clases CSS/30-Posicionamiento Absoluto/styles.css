@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.contenedor {
+    border: 2px solid #0A0;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+}
+.box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    background-color: #ca6;
+    border: 1px solid #000;
+    border-radius: 2px;
+    text-align: center;
+}
+.box--blue {
+    background-color: #37d;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.box--red { 
+    background-color: #e53;
+}

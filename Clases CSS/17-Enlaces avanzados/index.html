@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enlaces avanzados</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="../Imagenes/icono64x64.png" type="image/png">
+    </head>
+    <body>
+        <form>
+            <h2>Formulario de contacto</h2>    
+            <fieldset>
+                <legend>INFORMACIÓN BÁSICA</legend>
+                <div class="form_input">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" placeholder="Jhon Davis" id="nombre">
+                </div>
+                <div class="form_input">
+                    <label>E-Mail
+                        <input type="email" placeholder="nombre@algo.com">
+                    </label>
+                </div>
+                <div class="form_input">
+                    <label>Asunto
+                        <input type="text" placeholder="El asunto de tu mensaje">
+                    </label>
+                </div>
+            </fieldset>
+            <div class="form_input">
+                <label>Tipo de usuario (Select)
+                    <select name="type_of_user" id="">
+                        <option value="user1">Seguidor/a</option>
+                        <option value="user2">Empresa</option>
+                        <option value="user3">Otros</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Tipo de usuario (Datalist)
+                    <input list="referente">
+                    <datalist id="referente" name="typo-de-algo">
+                        <option value="Seguidor">Una persona</option>
+                        <option value="Empresa">Una empresa cualquiera</option>
+                        <option value="user3">Otros</option>
+                    </datalist>
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Mensaje
+                    <textarea placeholder="Atributos: *READONLY *DISABLED *MAXLENGTH *ROWS"></textarea>
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Acepto <a href="terminos.html" target="_blank">terminos y condiciones</a>
+                    <input type="checkbox" class="checkbox">
+                </label>
+            </div>
+        </form>
+    </body>
+
+</html>

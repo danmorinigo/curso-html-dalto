@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f99;
+    z-index: 5;
+    opacity: 0.8;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+.box--blue {
+    background-color: #00d;
+    top: -50px;
+    left: 50px;
+    z-index: 1;
+}
+.box--red { 
+    background-color: #d00;
+    top: -320px;
+    left: 120px;
+    z-index: 2;
+}
