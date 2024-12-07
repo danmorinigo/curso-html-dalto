@@ -7,7 +7,7 @@
     
     padding: 10px 20px 30px 40px;
     */
-    padding: 30px;
+    padding: 10px;
     
 }
 .formulario_input {
@@ -19,7 +19,7 @@
     letter-spacing: 5px;
 }
 .formulario_submit{
-    padding: 20px 0;
+    padding: 25px 0;
     letter-spacing: 20px;
     width: 40%;
     text-transform: uppercase;

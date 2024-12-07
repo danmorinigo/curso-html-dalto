@@ -1,5 +1,8 @@
 div {
     background-color: red;
-    width: 300px;
+    width: 500px;
     height: 200px;
+}
+input {
+    width: 80%;
 }

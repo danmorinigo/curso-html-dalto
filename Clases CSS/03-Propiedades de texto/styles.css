@@ -7,8 +7,8 @@ h1 {
 p {
     color: red;
     font-size: 16px;
-    font-family: sans-seri, 'tahoma';
-    font-weight: 100;
+    font-family: NotoSans;
+    font-weight: 700;
     font-style: italic;
     text-align:justify;
     text-decoration:underline;

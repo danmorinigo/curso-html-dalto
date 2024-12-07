@@ -2,3 +2,23 @@
     font-family: 'Nerko One';
     src: url(../Fuentes/NerkoOne-Regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: NotoSans;
+    src: url(../Fuentes/NotoSans-ExtraLight.ttf) format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: NotoSans;
+    src: url(../Fuentes/NotoSans-Light.ttf) format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: NotoSans;
+    src: url(../Fuentes/NotoSans-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: NotoSans;
+    src: url(../Fuentes/NotoSans-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 900;
+}
